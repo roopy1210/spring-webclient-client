@@ -1,0 +1,13 @@
+server:
+  port: 7081
+  
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+      
+logging:
+  level:
+    org.springframework.web: DEBUG
+    com.roopy: DEBUG      
+        
